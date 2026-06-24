@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Currículo</title>
+</head>
+
+<body>
+
+    <h1>Formulário de Candidatura</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label>Nome Completo:</label>
+            <input type="text" required>
+
+            <br><br>
+
+            <label>Data de Nascimento:</label>
+            <input type="date">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+            <label>Escolaridade:</label>
+            <select required>
+                <option value="">-- Selecione --</option>
+                <option>Ensino Médio</option>
+                <option>Ensino Técnico</option>
+                <option>Ensino Superior</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Credenciais de Acesso</legend>
+
+            <label>Senha:</label>
+            <input type="password" minlength="8" required>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Concluir Cadastro</button>
+
+    </form>
+
+</body>
+
+</html>
