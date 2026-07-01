@@ -1,0 +1,95 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f4f8;
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 620px;
+    background-color: #ffffff;
+    border: 1px solid #ddd8ea;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    text-align: left;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 14px 20px;
+    background-color: #4b3f95;
+}
+
+th:last-child, td:last-child {
+    text-align: right;
+}
+
+td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #eae7f2;
+    border-right: 1px solid #eae7f2;
+    font-size: 1.02em;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    font-weight: 600;
+    color: #262230;
+}
+
+td:last-child {
+    font-weight: 700;
+    color: #262230;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Zebra leve nas linhas normais */
+tbody tr:nth-child(odd) {
+    background-color: #fbfaff;
+}
+
+/* Plano mais vendido: fundo roxo mais forte, texto branco, selo destacado */
+tbody tr:nth-child(2) {
+    background-color: #4b3f95;
+}
+
+tbody tr:nth-child(2) td {
+    border-color: #5c4fae;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(2) td:first-child {
+    color: #ffffff;
+}
+
+tbody tr:nth-child(2) td:last-child {
+    color: #ffffff;
+}
+
+tbody tr:nth-child(2) td:first-child::after {
+    content: "MAIS VENDIDO";
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.6em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #4b3f95;
+    background-color: #ffffff;
+    padding: 3px 9px;
+    border-radius: 4px;
+    vertical-align: middle;
+}

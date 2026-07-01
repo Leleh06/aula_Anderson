@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    margin: 0;
+    padding: 0 24px 80px 24px;
+    color: #4a2f6b;
+    background-color: #f5eefb;
+}
+
+h1 {
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #7c4dbd;
+    padding: 34px 6px 18px 6px;
+}
+
+h1 + ul {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    max-width: 640px;
+    margin: 0 auto 28px auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #e3cdf5;
+    border-radius: 999px;
+}
+
+h1 + ul li {
+    flex: 1;
+}
+
+h1 + ul a {
+    display: block;
+    text-align: center;
+    color: #9b5de5;
+    text-decoration: none;
+    font-size: 0.82em;
+    font-weight: 700;
+    padding: 9px 10px;
+    border-radius: 999px;
+}
+
+h1 + ul a:hover {
+    background-color: #9b5de5;
+    color: #ffffff;
+}
+
+h2 {
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #ecdcf9;
+    border-radius: 16px 16px 0 0;
+    border-bottom: none;
+    padding: 20px 24px 6px 24px;
+    font-size: 1.05em;
+    color: #7c4dbd;
+    scroll-margin-top: 78px;
+}
+
+h2::before {
+    content: "♥ ";
+    color: #f2a6d0;
+}
+
+h2 + p,
+h2 + p + p {
+    max-width: 592px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-left: 2px solid #ecdcf9;
+    border-right: 2px solid #ecdcf9;
+    padding: 4px 24px;
+    line-height: 1.65;
+    color: #5c4a75;
+}
+
+h2 + p + p {
+    padding-bottom: 22px;
+    border-radius: 0 0 16px 16px;
+    border: 2px solid #ecdcf9;
+    border-top: none;
+    margin-bottom: 24px;
+}
+
+.spacer {
+    height: 50vh;
+}

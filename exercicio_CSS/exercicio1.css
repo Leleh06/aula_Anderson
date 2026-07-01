@@ -1,0 +1,33 @@
+body {
+    background-color: #e0eff5;
+}
+
+h1 {
+    color: #020844;
+    font-family: "Playfair Display", sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #484a4c;
+    text-align: justify;
+    line-height: 24px;
+}
+
+h2 {
+    color: #45699e;
+    font-size: 22px;
+    font-family: "Lora", serif;
+}
+
+blockquote{
+    background-color: #dfe7f1;
+    border-left: 5px solid #6f67e0 ;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    background-color: #aecbeb;
+    border: 3px solid #aecbeb;
+}

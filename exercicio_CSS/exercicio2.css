@@ -1,0 +1,79 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f7f4ec;
+    color: #262220;
+    max-width: 720px;
+    margin: 50px auto;
+    padding: 0 24px 60px 24px;
+    line-height: 1.65;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 3px double #262220;
+    padding-bottom: 14px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.05em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #4a4440;
+    margin-top: 40px;
+}
+
+h3 strong {
+    color: #262220;
+}
+
+/* Bloco de Obrigações: linha superior e inferior, sem sombra, sem raio de borda */
+ul {
+    list-style-type: none;
+    margin: 12px 0 30px 0;
+    padding: 18px 0;
+    border-top: 1px solid #262220;
+    border-bottom: 1px solid #262220;
+}
+
+ul li {
+    padding: 9px 0 9px 20px;
+    margin: 0;
+    position: relative;
+}
+
+ul li+li {
+    border-top: 1px solid #ddd6c8;
+}
+
+ul li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #6b5b3f;
+}
+
+/* Bloco de Cancelamento: numeração natural, destacada só na cor */
+ol {
+    list-style-type: decimal;
+    margin: 12px 0 30px 34px;
+    padding: 16px 0 16px 10px;
+    /* border-left: 3px solid #8a2e2e; */
+}
+
+ol li {
+    padding: 7px 0;
+}
+
+ol li::marker {
+    color: #8a2e2e;
+    font-weight: bold;
+}
+
+strong {
+    color: #8a2e2e;
+    font-style: italic;
+}
