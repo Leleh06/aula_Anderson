@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #FFE5F1, #F3E5FF);
+    color: #4A2E5C;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 16px;
+}
+
+h1 {
+    width: 100%;
+    color: #8B5FBF;
+}
+
+.card {
+    border: 1px solid #E8C9F0;
+    border-radius: 14px;
+    padding: 18px;
+    width: 220px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(139, 95, 191, 0.15);
+}
+
+.card h3 {
+    color: #8B5FBF;
+}
+
+.btnFechar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: #E4568E;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.btnFechar:hover {
+    background-color: #C93D73;
+}

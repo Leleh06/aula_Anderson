@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #FFE5F1, #F3E5FF);
+    color: #4A2E5C;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #8B5FBF;
+}
+
+.secao {
+    margin-bottom: 12px;
+    border: 1px solid #E8C9F0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.titulo-acordeao {
+    cursor: pointer;
+    background-color: #F3D9F7;
+    padding: 14px 18px;
+    margin: 0;
+    font-size: 16px;
+    color: #8B5FBF;
+    transition: background-color 0.2s ease;
+}
+
+.titulo-acordeao:hover {
+    background-color: #E8C2EF;
+}
+
+.conteudo-acordeao {
+    display: none;
+    padding: 16px 18px;
+    background-color: #fff;
+    line-height: 1.6;
+}

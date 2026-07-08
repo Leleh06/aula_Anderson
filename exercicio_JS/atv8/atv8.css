@@ -1,0 +1,23 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background: linear-gradient(135deg, #FFE5F1, #F3E5FF);
+    color: #4A2E5C;
+}
+
+h1 {
+    color: #8B5FBF;
+}
+
+#barraProgresso {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 0%;
+    background: linear-gradient(90deg, #ef88be, #613b77);
+    z-index: 999;
+    transition: width 0.1s ease;
+}

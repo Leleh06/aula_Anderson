@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #FFE5F1, #F3E5FF);
+    color: #4A2E5C;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #8B5FBF;
+}
+
+#inputTarefa {
+    padding: 11px 16px;
+    font-size: 14px;
+    border: 2px solid #E8C9F0;
+    border-radius: 20px 0 0 20px;
+    width: 70%;
+    box-sizing: border-box;
+    border-right: none;
+}
+
+#inputTarefa:focus {
+    outline: none;
+    border-color: #B491C8;
+}
+
+#btnAdicionar {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #B491C8;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnAdicionar:hover {
+    background-color: #8B5FBF;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 22px;
+}
+
+li {
+    padding: 12px 16px;
+    background-color: #fff;
+    border: 1px solid #F3D9F7;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    color: #4A2E5C;
+}

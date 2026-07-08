@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #FFE5F1, #F3E5FF);
+    color: #4A2E5C;
+    border-radius: 16px;
+}
+
+h1 {
+    color: #8B5FBF;
+}
+
+input[type="password"] {
+    padding: 11px 16px;
+    font-size: 14px;
+    border: 2px solid #E8C9F0;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="password"]:focus {
+    outline: none;
+    border-color: #B491C8;
+}
+
+#avisoSenha {
+    font-size: 13px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.senha-fraca {
+    color: #E4568E;
+}
+
+.senha-forte {
+    color: #7FB77E;
+}
